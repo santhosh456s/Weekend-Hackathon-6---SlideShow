@@ -21,7 +21,7 @@ const App = (props) => {
     }
   };
   const Handelclickreset = (action) => {
-    if (action == "reset") {
+    if (action === "reset") {
       setIndex(0);
     }
   };
